@@ -118,7 +118,7 @@
 <meta property="og:site_name" content="SoYoung&#39;Blog">
 <meta property="og:description" content="我不是任何人口中的大手子，只是有幸结识了一群大手子我只是一个目前还在路上努力爬行的newbie 一直觉得一句诗是很好的，学技术就是一个从学习到熟练的过程： 操千曲而后晓声，观千剑而后识器 另外我想对自己说的话：“请先变得了不起” 持之以恒，他日必能“春风得意马蹄疾，一日看尽长安花”">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-04-03T12:41:49.611Z">
+<meta property="og:updated_time" content="2018-04-03T14:09:57.496Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="SoYoung&#39;Blog">
 <meta name="twitter:description" content="我不是任何人口中的大手子，只是有幸结识了一群大手子我只是一个目前还在路上努力爬行的newbie 一直觉得一句诗是很好的，学技术就是一个从学习到熟练的过程： 操千曲而后晓声，观千剑而后识器 另外我想对自己说的话：“请先变得了不起” 持之以恒，他日必能“春风得意马蹄疾，一日看尽长安花”">
@@ -338,7 +338,7 @@
 <p>操千曲而后晓声，观千剑而后识器</p>
 <p>另外我想对自己说的话：<br>“请先变得了不起”</p>
 <p>持之以恒，他日必能“春风得意马蹄疾，一日看尽长安花”</p>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="0" height="0" src="//music.163.com/outchain/player?type=2&id=28815250&auto=1&height=66"></iframe>
+
         
       </div>
       
@@ -409,7 +409,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -420,7 +420,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -431,7 +431,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -708,6 +708,28 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'KnrLgrHpGUfKd5cefVIR4Qd4-gzGzoHsz',
+        appKey: 'xDKHlCjzVmTFEd8q0BkTCNCA',
+        placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
@@ -1038,7 +1060,7 @@
 
   
   <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
-  <script>AV.initialize("", "");</script>
+  <script>AV.initialize("KnrLgrHpGUfKd5cefVIR4Qd4-gzGzoHsz", "xDKHlCjzVmTFEd8q0BkTCNCA");</script>
   <script>
     function showTime(Counter) {
       var query = new AV.Query(Counter);

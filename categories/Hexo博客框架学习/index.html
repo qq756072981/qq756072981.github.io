@@ -329,6 +329,34 @@
 
       <h3 class="post-title">
         
+            <a class="post-title-link" href="/2018/04/04/Hexo如何插入背景音乐/" itemprop="url">
+              
+                <span itemprop="name">Hexo如何插入背景音乐</span>
+              
+            </a>
+        
+      </h3>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2018-04-03T22:13:12Z"
+              content="2018-04-03" >
+          04-03
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+      
+        
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h3 class="post-title">
+        
             <a class="post-title-link" href="/2018/04/03/Hexo开启站内搜索功能/" itemprop="url">
               
                 <span itemprop="name">Hexo开启站内搜索功能</span>
@@ -408,7 +436,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -419,7 +447,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -430,7 +458,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -703,6 +731,28 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'KnrLgrHpGUfKd5cefVIR4Qd4-gzGzoHsz',
+        appKey: 'xDKHlCjzVmTFEd8q0BkTCNCA',
+        placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
@@ -1033,7 +1083,7 @@
 
   
   <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
-  <script>AV.initialize("", "");</script>
+  <script>AV.initialize("KnrLgrHpGUfKd5cefVIR4Qd4-gzGzoHsz", "xDKHlCjzVmTFEd8q0BkTCNCA");</script>
   <script>
     function showTime(Counter) {
       var query = new AV.Query(Counter);
