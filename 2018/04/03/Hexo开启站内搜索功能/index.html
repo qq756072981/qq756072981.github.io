@@ -7,6 +7,9 @@
 
 <html class="theme-next mist use-motion" lang="zh-Hans">
 <head>
+
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
@@ -172,8 +175,14 @@
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   
-  
-    
+  <div id="comment"></div>
+    <script>
+    new Valine({
+        el:'#comment',
+        appId:'KnrLgrHpGUfKd5cefVIR4Qd4-gzGzoHsz',
+        appKey:'xDKHlCjzVmTFEd8q0BkTCNCA'
+    })
+</script>
   
 
   <div class="container sidebar-position-left page-post-detail">
