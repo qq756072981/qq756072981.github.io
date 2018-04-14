@@ -1,48 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[金州幼儿园]]></title>
-    <url>%2F2018%2F04%2F04%2F%E9%87%91%E5%B7%9E%E5%B9%BC%E5%84%BF%E5%9B%AD%2F</url>
-    <content type="text"><![CDATA[]]></content>
+<search> 
+  
+    
+    <entry>
+      <title>金州幼儿园</title>
+      <link href="/2018/04/04/%E9%87%91%E5%B7%9E%E5%B9%BC%E5%84%BF%E5%9B%AD/"/>
+      <url>/2018/04/04/%E9%87%91%E5%B7%9E%E5%B9%BC%E5%84%BF%E5%9B%AD/</url>
+      <content type="html"><![CDATA[<p><img src="/img/gsw.jpg" alt="金州幼儿园"></p>]]></content>
+      
       <categories>
-        <category>NBA</category>
+          
+          <category> NBA </category>
+          
       </categories>
-      <tags>
-        <tag>勇士队</tag>
-        <tag>库里</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Hexo如何插入背景音乐]]></title>
-    <url>%2F2018%2F04%2F04%2FHexo%E5%A6%82%E4%BD%95%E6%8F%92%E5%85%A5%E8%83%8C%E6%99%AF%E9%9F%B3%E4%B9%90%2F</url>
-    <content type="text"><![CDATA[方法一:直接在html页面中插入以下代码 12&lt;audio src="http://ois5yh1xg.bkt.clouddn.com/%E5%8D%A2%E5%86%A0%E5%BB%B7%E4%B8%80%E7%94%9F%E6%89%80%E7%88%B1.mp3" loop=loop preload=auto autoplay=autoplay&gt; 点开 public 文件夹可以发现每篇文章,每个页面都有对应的 .html 的结尾的文件,这就是 html 页面 你只要知道你在浏览器上面所浏览的每个页面其实背后都一一对应了一个 html 文件, html 文件由许多标签组成,打开一个网页按 ctrl + u 就可以查看网页的源码 我们之所以能够看到一个舒服的网页,就是因为浏览器打开 html 文件时会自动解析,不然的话我们看到的就是一堆标签 1&lt;audio/&gt;就是播放音乐的标签,它有如下属性,你可以根据需要设置]]></content>
+      
+      
+        <tags>
+            
+            <tag> 勇士队 </tag>
+            
+            <tag> 库里 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Hexo如何插入背景音乐</title>
+      <link href="/2018/04/04/Hexo%E5%A6%82%E4%BD%95%E6%8F%92%E5%85%A5%E8%83%8C%E6%99%AF%E9%9F%B3%E4%B9%90/"/>
+      <url>/2018/04/04/Hexo%E5%A6%82%E4%BD%95%E6%8F%92%E5%85%A5%E8%83%8C%E6%99%AF%E9%9F%B3%E4%B9%90/</url>
+      <content type="html"><![CDATA[<h3 id="方法一"><a href="#方法一" class="headerlink" title="方法一:"></a>方法一:</h3><pre><code>直接在html页面中插入以下代码</code></pre><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;audio src=<span class="string">"http://ois5yh1xg.bkt.clouddn.com/%E5%8D%A2%E5%86%A0%E5%BB%B7%E4%B8%80%E7%94%9F%E6%89%80%E7%88%B1.mp3"</span></span><br><span class="line"> loop=loop preload=auto autoplay=autoplay&gt;</span><br></pre></td></tr></table></figure><img src="/2018/04/04/Hexo如何插入背景音乐/1.png" title="自己电脑上的项目目录"><p>点开 <a>public</a> 文件夹可以发现每篇文章,每个页面都有对应的 .html 的结尾的文件,这就是 html 页面</p><p>你只要知道你在浏览器上面所浏览的每个页面其实背后都一一对应了一个 html 文件, html 文件由许多标签组成,打开一个网页按 ctrl + u 就可以查看网页的源码</p><p>我们之所以能够看到一个舒服的网页,就是因为浏览器打开 html 文件时会自动解析,不然的话我们看到的就是一堆标签</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;audio/&gt;</span><br></pre></td></tr></table></figure>就是播放音乐的标签,它有如下属性,你可以根据需要设置<br><br><img src="/2018/04/04/Hexo如何插入背景音乐/audio.png">]]></content>
+      
       <categories>
-        <category>Hexo博客框架学习</category>
+          
+          <category> Hexo博客框架学习 </category>
+          
       </categories>
-      <tags>
-        <tag>音乐</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Hexo开启站内搜索功能]]></title>
-    <url>%2F2018%2F04%2F03%2FHexo%E5%BC%80%E5%90%AF%E7%AB%99%E5%86%85%E6%90%9C%E7%B4%A2%E5%8A%9F%E8%83%BD%2F</url>
-    <content type="text"><![CDATA[根据关键字搜索博文，站内搜索的功能很实用。hexo开启站内搜索很方便，已经有现成的插件可以使用。 1.安装插件 npm install hexo-generator-search –savenpm install hexo-generator-searchdb –save2.配置hexo站点主配置文件_config.yml,添加 search: path: search.xml field: post format: html limit: 100003.修改next主题配置文件_config.yml，启用local_search local_search: enable: true trigger: auto top_n_per_article: 1这样就开启了站内搜索。]]></content>
+      
+      
+        <tags>
+            
+            <tag> 音乐 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Hexo开启站内搜索功能</title>
+      <link href="/2018/04/03/Hexo%E5%BC%80%E5%90%AF%E7%AB%99%E5%86%85%E6%90%9C%E7%B4%A2%E5%8A%9F%E8%83%BD/"/>
+      <url>/2018/04/03/Hexo%E5%BC%80%E5%90%AF%E7%AB%99%E5%86%85%E6%90%9C%E7%B4%A2%E5%8A%9F%E8%83%BD/</url>
+      <content type="html"><![CDATA[<p>根据关键字搜索博文，站内搜索的功能很实用。hexo开启站内搜索很方便，已经有现成的插件可以使用。</p><p>1.安装插件</p><p>npm install hexo-generator-search  –save<br>npm install hexo-generator-searchdb –save<br>2.配置hexo站点主配置文件_config.yml,添加</p><p>search:<br>  path: search.xml<br>  field: post<br>  format: html<br>  limit: 10000<br>3.修改next主题配置文件_config.yml，启用local_search</p><p>local_search:<br>  enable: true<br>  trigger: auto<br>  top_n_per_article: 1<br>这样就开启了站内搜索。</p>]]></content>
+      
       <categories>
-        <category>Hexo博客框架学习</category>
+          
+          <category> Hexo博客框架学习 </category>
+          
       </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2018%2F04%2F02%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[技术小白—如何使用Hexo-GithubPages搭建博客]]></title>
-    <url>%2F2014%2F07%2F03%2F%E6%8A%80%E6%9C%AF%E5%B0%8F%E7%99%BD%E2%80%94%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Hexo-GithubPages%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%2F</url>
-    <content type="text"><![CDATA[(function(d, s) { var j, e = d.getElementsByTagName(s)[0]; if (typeof LivereTower === &apos;function&apos;) { return; } j = d.createElement(s); j.src = &apos;https://cdn-city.livere.com/js/embed.dist.js&apos;; j.async = true; e.parentNode.insertBefore(j, e); })(document, ‘script’); 为正常使用来必力评论功能请激活JavaScript]]></content>
-      <tags>
-        <tag>博客</tag>
-        <tag>零基础</tag>
-      </tags>
-  </entry>
+      
+      
+    </entry>
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2018/04/02/hello-world/"/>
+      <url>/2018/04/02/hello-world/</url>
+      <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+      
+      
+    </entry>
+    
+    <entry>
+      <title>技术小白—如何使用Hexo-GithubPages搭建博客</title>
+      <link href="/2014/07/03/%E6%8A%80%E6%9C%AF%E5%B0%8F%E7%99%BD%E2%80%94%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Hexo-GithubPages%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
+      <url>/2014/07/03/%E6%8A%80%E6%9C%AF%E5%B0%8F%E7%99%BD%E2%80%94%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Hexo-GithubPages%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</url>
+      <content type="html"><![CDATA[<p><hr><br><br><br><br><br><br><br><br><br><br></p><hr><!-- 来必力City版安装代码 --><p><div id="lv-container" data-id="city" data-uid="MTAyMC8zNTcwMi8xMjIzOA=="></div></p><p><script type="text/javascript"><br>   (function(d, s) {<br>       var j, e = d.getElementsByTagName(s)[0];</p><pre><code>if (typeof LivereTower === &apos;function&apos;) { return; }j = d.createElement(s);j.src = &apos;https://cdn-city.livere.com/js/embed.dist.js&apos;;j.async = true;e.parentNode.insertBefore(j, e);</code></pre><p>   })(document, ‘script’);<br></script></p><p><noscript>为正常使用来必力评论功能请激活JavaScript</noscript><br><br><!-- City版安装代码已完成 --></p>]]></content>
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+            <tag> 零基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+  
+  
 </search>
