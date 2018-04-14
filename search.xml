@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Git安装教程]]></title>
-    <url>%2F2018%2F04%2F15%2FGit%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%2F</url>
-    <content type="text"></content>
-  </entry>
-  <entry>
     <title><![CDATA[Hexo如何插入背景音乐]]></title>
     <url>%2F2018%2F04%2F04%2FHexo%E5%A6%82%E4%BD%95%E6%8F%92%E5%85%A5%E8%83%8C%E6%99%AF%E9%9F%B3%E4%B9%90%2F</url>
     <content type="text"><![CDATA[方法一:直接在html页面中插入以下代码 12&lt;audio src="http://ois5yh1xg.bkt.clouddn.com/%E5%8D%A2%E5%86%A0%E5%BB%B7%E4%B8%80%E7%94%9F%E6%89%80%E7%88%B1.mp3" loop=loop preload=auto autoplay=autoplay&gt; 点开 public 文件夹可以发现每篇文章,每个页面都有对应的 .html 的结尾的文件,这就是 html 页面 你只要知道你在浏览器上面所浏览的每个页面其实背后都一一对应了一个 html 文件, html 文件由许多标签组成,打开一个网页按 ctrl + u 就可以查看网页的源码 我们之所以能够看到一个舒服的网页,就是因为浏览器打开 html 文件时会自动解析,不然的话我们看到的就是一堆标签 1&lt;audio/&gt;就是播放音乐的标签,它有如下属性,你可以根据需要设置]]></content>
