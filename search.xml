@@ -1,92 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-    
-    <entry>
-      <title>金州幼儿园</title>
-      <link href="/2018/04/04/%E9%87%91%E5%B7%9E%E5%B9%BC%E5%84%BF%E5%9B%AD/"/>
-      <url>/2018/04/04/%E9%87%91%E5%B7%9E%E5%B9%BC%E5%84%BF%E5%9B%AD/</url>
-      <content type="html"><![CDATA[<p><img src="/img/gsw.jpg" alt="金州幼儿园"></p>]]></content>
-      
+<search>
+  <entry>
+    <title><![CDATA[Git安装教程]]></title>
+    <url>%2F2018%2F04%2F15%2FGit%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[Hexo如何插入背景音乐]]></title>
+    <url>%2F2018%2F04%2F04%2FHexo%E5%A6%82%E4%BD%95%E6%8F%92%E5%85%A5%E8%83%8C%E6%99%AF%E9%9F%B3%E4%B9%90%2F</url>
+    <content type="text"><![CDATA[方法一:直接在html页面中插入以下代码 12&lt;audio src="http://ois5yh1xg.bkt.clouddn.com/%E5%8D%A2%E5%86%A0%E5%BB%B7%E4%B8%80%E7%94%9F%E6%89%80%E7%88%B1.mp3" loop=loop preload=auto autoplay=autoplay&gt; 点开 public 文件夹可以发现每篇文章,每个页面都有对应的 .html 的结尾的文件,这就是 html 页面 你只要知道你在浏览器上面所浏览的每个页面其实背后都一一对应了一个 html 文件, html 文件由许多标签组成,打开一个网页按 ctrl + u 就可以查看网页的源码 我们之所以能够看到一个舒服的网页,就是因为浏览器打开 html 文件时会自动解析,不然的话我们看到的就是一堆标签 1&lt;audio/&gt;就是播放音乐的标签,它有如下属性,你可以根据需要设置]]></content>
       <categories>
-          
-          <category> NBA </category>
-          
+        <category>Hexo博客框架学习</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 勇士队 </tag>
-            
-            <tag> 库里 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>Hexo如何插入背景音乐</title>
-      <link href="/2018/04/04/Hexo%E5%A6%82%E4%BD%95%E6%8F%92%E5%85%A5%E8%83%8C%E6%99%AF%E9%9F%B3%E4%B9%90/"/>
-      <url>/2018/04/04/Hexo%E5%A6%82%E4%BD%95%E6%8F%92%E5%85%A5%E8%83%8C%E6%99%AF%E9%9F%B3%E4%B9%90/</url>
-      <content type="html"><![CDATA[<h3 id="方法一"><a href="#方法一" class="headerlink" title="方法一:"></a>方法一:</h3><pre><code>直接在html页面中插入以下代码</code></pre><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;audio src=<span class="string">"http://ois5yh1xg.bkt.clouddn.com/%E5%8D%A2%E5%86%A0%E5%BB%B7%E4%B8%80%E7%94%9F%E6%89%80%E7%88%B1.mp3"</span></span><br><span class="line"> loop=loop preload=auto autoplay=autoplay&gt;</span><br></pre></td></tr></table></figure><img src="/2018/04/04/Hexo如何插入背景音乐/1.png" title="自己电脑上的项目目录"><p>点开 <a>public</a> 文件夹可以发现每篇文章,每个页面都有对应的 .html 的结尾的文件,这就是 html 页面</p><p>你只要知道你在浏览器上面所浏览的每个页面其实背后都一一对应了一个 html 文件, html 文件由许多标签组成,打开一个网页按 ctrl + u 就可以查看网页的源码</p><p>我们之所以能够看到一个舒服的网页,就是因为浏览器打开 html 文件时会自动解析,不然的话我们看到的就是一堆标签</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;audio/&gt;</span><br></pre></td></tr></table></figure>就是播放音乐的标签,它有如下属性,你可以根据需要设置<br><br><img src="/2018/04/04/Hexo如何插入背景音乐/audio.png">]]></content>
-      
+      <tags>
+        <tag>音乐</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hexo开启站内搜索功能]]></title>
+    <url>%2F2018%2F04%2F03%2FHexo%E5%BC%80%E5%90%AF%E7%AB%99%E5%86%85%E6%90%9C%E7%B4%A2%E5%8A%9F%E8%83%BD%2F</url>
+    <content type="text"><![CDATA[根据关键字搜索博文，站内搜索的功能很实用。hexo开启站内搜索很方便，已经有现成的插件可以使用。 1.安装插件 npm install hexo-generator-search –savenpm install hexo-generator-searchdb –save2.配置hexo站点主配置文件_config.yml,添加 search: path: search.xml field: post format: html limit: 100003.修改next主题配置文件_config.yml，启用local_search local_search: enable: true trigger: auto top_n_per_article: 1这样就开启了站内搜索。]]></content>
       <categories>
-          
-          <category> Hexo博客框架学习 </category>
-          
+        <category>Hexo博客框架学习</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 音乐 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>Hexo开启站内搜索功能</title>
-      <link href="/2018/04/03/Hexo%E5%BC%80%E5%90%AF%E7%AB%99%E5%86%85%E6%90%9C%E7%B4%A2%E5%8A%9F%E8%83%BD/"/>
-      <url>/2018/04/03/Hexo%E5%BC%80%E5%90%AF%E7%AB%99%E5%86%85%E6%90%9C%E7%B4%A2%E5%8A%9F%E8%83%BD/</url>
-      <content type="html"><![CDATA[<p>根据关键字搜索博文，站内搜索的功能很实用。hexo开启站内搜索很方便，已经有现成的插件可以使用。</p><p>1.安装插件</p><p>npm install hexo-generator-search  –save<br>npm install hexo-generator-searchdb –save<br>2.配置hexo站点主配置文件_config.yml,添加</p><p>search:<br>  path: search.xml<br>  field: post<br>  format: html<br>  limit: 10000<br>3.修改next主题配置文件_config.yml，启用local_search</p><p>local_search:<br>  enable: true<br>  trigger: auto<br>  top_n_per_article: 1<br>这样就开启了站内搜索。</p>]]></content>
-      
-      <categories>
-          
-          <category> Hexo博客框架学习 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2018/04/02/hello-world/"/>
-      <url>/2018/04/02/hello-world/</url>
-      <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-      
-      
-    </entry>
-    
-    <entry>
-      <title>技术小白—如何使用Hexo-GithubPages搭建博客</title>
-      <link href="/2014/07/03/%E6%8A%80%E6%9C%AF%E5%B0%8F%E7%99%BD%E2%80%94%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Hexo-GithubPages%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
-      <url>/2014/07/03/%E6%8A%80%E6%9C%AF%E5%B0%8F%E7%99%BD%E2%80%94%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Hexo-GithubPages%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</url>
-      <content type="html"><![CDATA[<p><hr><br><br><br><br><br><br><br><br><br><br></p><hr><!-- 来必力City版安装代码 --><p><div id="lv-container" data-id="city" data-uid="MTAyMC8zNTcwMi8xMjIzOA=="></div></p><p><script type="text/javascript"><br>   (function(d, s) {<br>       var j, e = d.getElementsByTagName(s)[0];</p><pre><code>if (typeof LivereTower === &apos;function&apos;) { return; }j = d.createElement(s);j.src = &apos;https://cdn-city.livere.com/js/embed.dist.js&apos;;j.async = true;e.parentNode.insertBefore(j, e);</code></pre><p>   })(document, ‘script’);<br></script></p><p><noscript>为正常使用来必力评论功能请激活JavaScript</noscript><br><br><!-- City版安装代码已完成 --></p>]]></content>
-      
-      
-        <tags>
-            
-            <tag> 博客 </tag>
-            
-            <tag> 零基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-  
-  
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2018%2F04%2F02%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[技术小白—如何使用Hexo + GithubPages搭建博客]]></title>
+    <url>%2F2014%2F07%2F03%2F%E6%8A%80%E6%9C%AF%E5%B0%8F%E7%99%BD%E2%80%94%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Hexo-GithubPages%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%2F</url>
+    <content type="text"><![CDATA[什么是Hexo,GithubPages? 搭建博客的基本步骤 部署到GithubPages 绑定个性域名 什么是Hexo,GithubPages?Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。GithubPages 是一个托管静态网页的网站服务 搭建博客系统环境配置要使用Hexo，需要在你的系统中支持Nodejs以及Git，如果还没有，那就开始安装吧！ 安装Node.js下载地址：https://nodejs.org/en/Node.js安装教程 安装Git下载地址：https://git-scm.com/downloadsGit安装教程 安装Hexo123456$ npm install hexo-cli -g ##安装hexo$ hexo init blog ##初始化 hexo init '你的文件夹名字'$ cd blog ##进入文件夹$ npm install ##生成本地文件$ npm install hexo-server --save ##安装hexo-server $ hexo s # 或者hexo server，在启动本地web服务器,可以在http://localhost:4000/ 查看 这里有必要提下Hexo常用的几个命令： hexo generate (hexo g) 生成静态文件，会在当前目录下生成一个新的叫做public的文件夹 hexo server (hexo s) 启动本地web服务，用于博客的预览 hexo deploy (hexo d) 部署播客到远端（比如github, heroku等平台） 另外还有其他几个常用命令：12$ hexo new "postName" #新建文章$ hexo new page "pageName" #新建页面 常用简写1234$ hexo n == hexo new$ hexo g == hexo generate$ hexo s == hexo server$ hexo d == hexo deploy 常用组合$ hexo d -g #生成部署$ hexo s -g #生成预览现在我们打开http://localhost:4000/ 已经可以看到一篇内置的blog了。 目前我安装所用的本地环境如下：(可以通过hexo -v查看) 12345678910111213141516hexo: 3.7.0hexo-cli: 1.1.0os: Windows_NT 10.0.16299 win32 x64http_parser: 2.7.0node: 8.9.3v8: 6.1.534.48uv: 1.15.0zlib: 1.2.11ares: 1.10.1-DEVmodules: 57nghttp2: 1.25.0openssl: 1.0.2nicu: 59.1unicode: 9.0cldr: 31.0.1tz: 2017b Hexo主题设置这里以主题yilia为例进行说明。 安装主题$ hexo clean$ git clone https://github.com/litten/hexo-theme-yilia.git themes/yilia启用主题修改Hexo目录下的_config.yml配置文件中的theme属性，将其设置为yilia。 更新主题1234$ cd themes/yilia$ git pull$ hexo g # 生成$ hexo s # 启动本地web服务器 现在打开http://localhost:4000/ ，会看到我们已经应用了一个新的主题。 部署到GithubPages远程服务器什么是Github PagesGitHub Pages 本用于介绍托管在GitHub的项目，不过，由于他的空间免费稳定，用来做搭建一个博客再好不过了。 每个帐号有且只能一个仓库来存放个人博客，而且仓库的名字必须是username/username.github.io，username是你的账号用户名,这是特殊的命名约定。你可以通过http://username.github.io 来访问你的个人主页。 这里特别提醒一下，需要注意的个人主页的网站内容是在master分支下的。 创建自己的Github Pages注册GitHub及使用GithubPages的过程已经有很多文章讲过 购买自己的个性域名并绑定到GithubPages远程地址 购买域名 实名认证 解析域名 创建并上传CNAME文件 购买域名进入万网 解析域名点击解析点击添加解析得到以下界面注意: 记录类型必须为CNAME,因为你部署在Github Pages的地址为http://username.github.io 也是一个域名 主机记录为 @ 记录值为你的github项目仓库的名字 创建并上传CNAME文件在source目录下创建CNAME文件,然后把你的个性域名保存在该文件中,比如我的就是: soyoung.live上传部署到GithubPages,刷新1$ hexo d 这时的仓库设置下面的访问域名已经改变成了自己的 以上,你就可以在浏览器中输入域名访问你的博客了]]></content>
+      <tags>
+        <tag>博客</tag>
+        <tag>零基础</tag>
+      </tags>
+  </entry>
 </search>
